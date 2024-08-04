@@ -49,7 +49,7 @@ async function Header() {
 
       <div className="flex items-center space-x-4 px-6">
         <Link href="" className="icon cursor-pointer hover:bg-slate-100 active:border-b-2 active:border-blue-500 ">
-          <Image src="/house.png" alt="" width={20} height={20}/>
+          <Image src="/Home.png" alt="" width={20} height={20}/>
           <p>Home</p>
         </Link>
 
