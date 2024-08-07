@@ -50,28 +50,28 @@ async function Header() {
       <div className="flex items-center space-x-4 px-6">
         <Link href="" className="icon cursor-pointer hover:bg-slate-100 active:border-b-2 active:border-blue-500 ">
           <Image src="/Home.png" alt="" width={20} height={20}/>
-          <p>Home</p>
+          <p className="hidden sm:block">Home</p>
         </Link>
 
         <Link href="" className="icon cursor-pointer hover:bg-slate-100 active:border-b-2 active:border-blue-500">
         <Image src="/Notifications.png" alt="" width={20} height={20}/>
-          <p>Notifications</p>
+          <p className="hidden sm:block">Notifications</p>
         </Link>
 
 
         <Link href="" className="icon cursor-pointer hover:bg-slate-100 active:border-b-2 active:border-blue-500">
         <Image src="/Add.png" alt="" width={20} height={20}/>
-          <p>Add</p>
+          <p className="hidden sm:block" >Add</p>
         </Link>
 
         <Link href="" className="icon cursor-pointer hover:bg-slate-100 active:border-b-2 active:border-blue-500">
         <Image src="/Users.png" alt="" width={20} height={20}/>
-          <p>Users</p>
+          <p className="hidden sm:block" >Users</p>
         </Link>
 
         <Link href="" className="icon cursor-pointer hover:bg-slate-100 active:border-b-2 active:border-blue-500">
         <Image src="/BLinks.png" alt="" width={20} height={20}/>
-          <p>BLinks</p>
+          <p className="hidden sm:block">BLinks</p>
         </Link>
 
       
