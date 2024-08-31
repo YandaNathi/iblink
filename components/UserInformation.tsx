@@ -63,28 +63,28 @@ async function UserInformation({ posts }: { posts: IPostDocument[] }) {
       <hr className="w-full border-gray-200 my-5" />
       <div className="flex flex-col space-y-2">
         <Link
-          href="/"
+          href="/profile"
           className="font-semibold flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100"
         >
-          <Image src="/rss.png" alt="B-Links" width={20} height={20} />
-          <span>My Posts</span>
+          <Image src="/profile.png" alt="B-Links" width={20} height={20} />
+          <span>Profile</span>
         </Link>
         <Link
-          href="/"
+          href="/My  B-Links"
           className="font-semibold flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100"
         >
           <Image src="/group.png" alt="B-Links" width={20} height={20} />
           <span>My B-Links</span>
         </Link>
         <Link
-          href="/"
+          href="/bookmarks"
           className="font-semibold flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100"
         >
-          <Image src="/list-video.png" alt="Videos" width={20} height={20} />
-          <span>My Videos</span>
+          <Image src="/bookmarks.png" alt="bookmarks" width={20} height={20} />
+          <span>Bookmarks</span>
         </Link>
         <Link
-          href="/"
+          href="/settings"
           className="font-semibold flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100"
         >
           <Image src="/settings.png" alt="Settings" width={20} height={20} />
